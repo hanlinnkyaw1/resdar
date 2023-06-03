@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="nav-container">
+      <div class="Name">Resdar</div>
+    <div class="Hamburger-Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="../Menu/menuPage.html">Menu</a>
+      <a href="../Menu/About.html">About</a>
+      <a href="../Menu/Contact.html">Contact</a>
+    </div>
+  </div>
+    <div class="FaceDesign">
+      <button class="view-menu" 
+      onclick="menu()">View Menu</button>
+    </div>
+    <div class="AboutUsContainer">
+      <div class="first-ABUImg">
+        <img src="Food/FABUImg.jpg" alt="photo">
+      </div>
+      <div class="About-Us">
+        <img src="Food/Resdar.jpg" alt="">
+      </div>
+      <div class="third-ABUImg">
+        <img src="Food/TABUImg.jpg" alt="photo">
+      </div>
+    </div>
+      <form>
+        <h3>Book Table</h3>
+        <input type="text" id="name"
+        name="name" placeholder="Name" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="tel" id="phone" name="phone" placeholder="phone" required>
+        <input type="number" id="guests" name="guests" placeholder="Number OF Guest" required>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time"  required>
+        <button type="submit" id="submit-button">Book Table </button>
+      </form>
+    <div class="TsFText">Our Main Foods</div>
+    <div class="TsFContainer">
+      <div class="Food1About">
+         <div class="Food1"><img src="Food/Special_Food1.jpg" alt="Food1"></div>
+         <p> Food1 </p>
+         <p>30$</p>
+      </div>
+      <div class="Food1About">
+        <div class="Food2"><img src="Food/food7.jpg" alt="Food2"></div>
+        <p> Food2 </p>
+        <p> $27 </p>
+      </div>
+      <div class="Food1About">
+         <div class="Food1"><img src="Food/Special_Food3.jpg" alt="Food1"></div>
+         <p> Food3 </p>
+         <p> 32$ </p>
+      </div>
+     <div class="Food1About">
+       <div class="Food2"><img src="Food/food4.jpg" alt="Food2"></div>
+       <p> Food4 </p>
+       <p> 25$ </p>
+     </div>
+    </div>
+    <div class="drink-text">
+      <p> Explore our refreshing drink options </p>
+    </div>
+    <div class="drinkContainer">
+    </div>
+      <div class="design">
+        <div class="interior-design">
+        <img src="Food/Interior.jpg" alt="ResdarDesgin">
+      </div>
+        <div class="Resdar-design">
+        <p>Discover a haven of relaxation and comfort as you savor delectable dishes at Resdar.</p>
+        <img src="Food/ResdarDesgin.jpg" alt="Food/Interior.jpg">
+        </div>
+      </div>
+      <div class="location-container">
+        <p>Adress : New York.exmaple.no.1</p>
+       <img class="location-img"  src="Food/location.jpg" alt="new york">
+       <img class="place"  src="" alt="">
+      </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
